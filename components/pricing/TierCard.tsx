@@ -38,7 +38,7 @@ const TierCard = React.memo(function TierCard({ tier }: TierCardProps) {
 
       <div className="flex flex-col gap-6 h-full">
         <div>
-          <h3 className={`text-2xl font-mono font-bold mb-2 ${tier.isFeatured ? "text-accent" : "text-text-primary"}`}>
+          <h3 className={`text-2xl font-mono font-bold mb-2 transition-colors duration-300 ${isFeatured ? "text-accent" : "text-text-primary"}`}>
             {tier.name}
           </h3>
           <p className="text-ink/70 text-sm md:text-base leading-relaxed">
@@ -46,20 +46,20 @@ const TierCard = React.memo(function TierCard({ tier }: TierCardProps) {
           </p>
         </div>
 
-        <PriceDisplay tierId={tier.id} isFeatured={tier.isFeatured} />
+        <PriceDisplay tierId={tier.id} isFeatured={isFeatured} />
 
         <ul className="flex-1 space-y-4">
           {tier.featureHighlights.map((feature, i) => (
             <li key={i} className="flex items-start text-sm md:text-base text-ink/80">
-              <span className="mr-3 mt-0.5 text-accent shrink-0">✓</span>
+              <span className={`mr-3 mt-0.5 shrink-0 transition-colors duration-300 ${isFeatured ? "text-accent" : "text-ink/40"}`}>✓</span>
               <span>{feature}</span>
             </li>
           ))}
         </ul>
 
         <button
-          className={`w-full py-4 mt-6 rounded-xl font-bold transition-all duration-200 ease-out hover:-translate-y-[2px] ${
-            tier.isFeatured
+          className={`w-full py-4 mt-6 rounded-xl font-bold transition-all duration-300 ease-out hover:-translate-y-[2px] ${
+            isFeatured
               ? "bg-accent text-primary-dark hover:bg-accent/90 hover:shadow-lg"
               : "bg-ink/5 text-ink hover:bg-ink/10"
           }`}
