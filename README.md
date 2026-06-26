@@ -11,6 +11,8 @@
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind-CSS-114C5A?style=for-the-badge&logo=tailwindcss)](https://tailwindcss.com)
 [![Zero Dependencies](https://img.shields.io/badge/Animation_Libs-ZERO-FF9932?style=for-the-badge)](#tech-stack)
 
+![Velocity AI Hero Section Preview](./public/screenshots/hero.png)
+
 </div>
 
 ---
@@ -60,6 +62,8 @@
 
 ### 1️⃣ Matrix-Driven Pricing & Performance-Isolated Currency Switcher
 
+![Pricing Section Matrix Preview](./public/screenshots/pricing.png)
+
 Pricing is **never hardcoded**. Every displayed price is computed live, on the client, from a multi-dimensional configuration matrix:
 
 ```
@@ -76,6 +80,8 @@ Final Price = baseMonthlyRateUSD × currencyConversionRate × regionalTariffMult
 - `PriceDisplay` is the **only** component that reads `PricingContext` and renders visible output — confirmed via React DevTools Profiler that toggling currency or billing cycle re-renders nothing but the price text nodes.
 
 ### 2️⃣ Bento-to-Accordion Wrapper with Context Lock
+
+![Bento Grid Showcase Preview](./public/screenshots/bento.png)
 
 - **Desktop (≥768px):** features render as an asymmetric **Bento Grid**.
 - **Mobile (<768px):** the same data renders as a touch-optimized **Accordion**, built entirely from scratch — zero Radix, zero Headless UI, zero Framer Motion.
