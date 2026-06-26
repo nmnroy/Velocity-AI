@@ -6,7 +6,7 @@
 
 *A premium, high-converting landing page built for the Next-Gen AI Platform Speed Run*
 
-[![Live Demo](https://img.shields.io/badge/Live-Demo-FFC801?style=for-the-badge&logo=vercel&logoColor=172B36)](https://your-deployed-url.vercel.app)
+[![Live Demo](https://img.shields.io/badge/Live-Demo-FFC801?style=for-the-badge&logo=vercel&logoColor=172B36)](https://velocity-ai-fawn.vercel.app/)
 [![Built with Next.js](https://img.shields.io/badge/Next.js-14-172B36?style=for-the-badge&logo=next.js)](https://nextjs.org)
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind-CSS-114C5A?style=for-the-badge&logo=tailwindcss)](https://tailwindcss.com)
 [![Zero Dependencies](https://img.shields.io/badge/Animation_Libs-ZERO-FF9932?style=for-the-badge)](#tech-stack)
@@ -50,7 +50,7 @@
 
 | Resource | Link |
 |---|---|
-| 🌐 Live Deployment | `https://your-deployed-url.vercel.app` |
+| 🌐 Live Deployment | `https://velocity-ai-fawn.vercel.app/` |
 | 💻 Source Code | `https://github.com/your-username/your-repo` |
 | 🎥 Demo Video | `https://drive.google.com/your-demo-link` |
 
